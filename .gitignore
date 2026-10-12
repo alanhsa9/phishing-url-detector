@@ -1,0 +1,19 @@
+# Entornos virtuales
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Artefactos locales
+reports/
+
+# Notebooks
+notebooks/
+*.ipynb

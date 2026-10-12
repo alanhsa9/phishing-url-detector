@@ -1,0 +1,19 @@
+# Entornos virtuales
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# MLflow (Tracking y Artefactos)
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Artefactos y reportes generados localmente
+reports/
+
+# Notebooks de análisis exploratorio (para cumplir el requisito de excluir archivos innecesarios)
+notebooks/
+*.ipynb
