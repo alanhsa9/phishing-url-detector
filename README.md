@@ -12,6 +12,7 @@ Para instalar todas las dependencias necesarias, ejecuta:
 
 ```bash
 pip install -r requirements.txt
+```
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
@@ -21,7 +22,7 @@ Machine learning pipeline for malicious and phishing URL classification using th
 
 ## Project Organization
 
-```
+
 ├── LICENSE            <- Open-source license if one is chosen
 ├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
 ├── README.md          <- The top-level README for developers using this project.
