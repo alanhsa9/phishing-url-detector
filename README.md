@@ -1,5 +1,18 @@
 # Phishing URL Detector
 
+Este proyecto implementa un modelo de Machine Learning (`RandomForestClassifier`) para identificar si una URL es legítima o si se trata de un intento de phishing. Forma parte de un flujo de trabajo de MLOps que incluye el seguimiento automático de experimentos, parámetros y artefactos utilizando MLflow.
+
+## Dataset
+El modelo utiliza el **PhiUSIIL Phishing URL Dataset** (ID: 967). No es necesario descargar el dataset manualmente, el script de entrenamiento se conecta a la API de UC Irvine Machine Learning Repository a través de `ucimlrepo` y descarga los datos en tiempo de ejecución.
+
+## Requisitos Previos
+
+Se recomienda utilizar un entorno virtual de Python (versión 3.8 o superior).
+Para instalar todas las dependencias necesarias, ejecuta:
+
+```bash
+pip install -r requirements.txt
+
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
