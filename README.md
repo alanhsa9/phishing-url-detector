@@ -18,10 +18,9 @@ pip install -r requirements.txt
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-Machine learning pipeline for malicious and phishing URL classification using the PhiUSIIL dataset
 
 ## Project Organization
-
+```bash
 
 ├── LICENSE            <- Open-source license if one is chosen
 ├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
